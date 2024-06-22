@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+.body-p {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #000000;
+  color: white;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container-p {
+  max-width: 87.5em;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.top-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: -3%;
+}
+
+.logo-image {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: -2%;
+}
+.logo-image img {
+  height: auto;
+  width: 200px;
+}
+
+.top-layer a {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 18px;
+}
+.top-layer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.register-btn {
+  background-color: #0055ff;
+  padding: 12px 24px;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.register-btn-2 {
+  background-color: #0055ff;
+  padding: 12px 24px;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.main-p {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.left-column {
+  flex: 0 0 55%;
+  margin-left: -5%;
+  margin-top: -2%;
+}
+
+
+.right-column {
+  flex: 0 0 40%;
+  margin-right: 10%;
+  margin-top: -2rem;
+  margin-left: -20%;
+}
+
+.inno-head {
+  font-size: 50px;
+  margin: 0 0 30px 0;
+  line-height: 1;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.speakers-section {
+  margin-top: 7%;
+}
+
+.speakers-section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  border-bottom: 1px solid blue;
+}
+
+.feature-text {
+  font-size: 25px;
+  font-style: normal;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background: white;
+  margin-left: 7rem;
+}
+
+.speakers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.speaker {
+  background-color: #0055ff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: auto;
+}
+
+.university-text {
+  background-color: #0055ff;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  padding: 10px 20px;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+
+.university-text i {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.bg-speaker {
+  background-color: #0055ff;
+}
+
+.text-signal {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 5%;
+}
+
+.frans-logo img {
+  height: auto;
+  width: 150px;
+  margin-top: -14%;
+  margin-left: 40%;
+}
+
+.ai-logo img {
+  height: auto;
+  width: 100px;
+  margin-left: 30px;
+  margin-top: -10%;
+}
+
+.signal-logo img {
+  width: 100px;
+  height: auto;
+  margin-left: 60px;
+  margin-top: -10%;
+}
+
+.speaker-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  margin-top: 5%;
+}
+
+.speaker-big {
+  flex: 2;
+}
+
+.speaker-small {
+  flex: 1;
+}
+
+.speak-1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.countdown-section {
+  text-align: center;
+  margin-left:-30%;
+  margin-top: 4%;
+
+}
+
+.countdown-text {
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #000;
+}
+
+.countdown {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
+}
+
+.date-aug {
+  margin-top: -15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-align: right;
+}
+
+.event {
+  margin-bottom: 20px;
+  padding: 25px;
+  text-align: center;
+}
+
+.date {
+  font-size: 3em;
+  color: #007bff;
+  margin: 0;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.month-year {
+  font-size: 1em;
+  margin: 0;
+  color: white;
+}
+
+.details {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.time-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.time {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.label {
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.register-btn-2 {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: -3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:auto;
+}
+
+.btn-class{
+  display: flex;
+  justify-content: center;
+}
+.background-image {
+  height: 100vh;
+  background-image: url("../assests/kst.jpg");
+  background-size: cover;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container-p {
+    padding: 20px;
+  }
+
+  .top-head {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-image img {
+    height: auto;
+    max-height: 100%;
+    width: 200px;
+  }
+
+  .top-layer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-layer a {
+    margin: 10px 0;
+  }
+
+  .main-p {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .left-column,
+  .right-column {
+    flex: 1 1 100%;
+    margin: 0;
+  }
+
+  .inno-head {
+    font-size: 48px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .speakers {
+    justify-content: center;
+  }
+
+  .speaker {
+    width: auto;
+  }
+
+  .countdown {
+    font-size: 40px;
+  }
+
+  .date-aug {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    margin-top: 5%;
+  }
+
+  .event {
+    width: 100%;
+  }
+
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .frans-logo img,
+  .ai-logo img,
+  .signal-logo img {
+    margin: 10px 0;
+  }
+
+  .speaker-row {
+    flex-direction: column;
+  }
+
+  .speaker-big,
+  .speaker-small {
+    flex: 1 1 100%;
+  }
+
+  .countdown-section {
+    margin-right: 0;
+  }
+
+  .countdown {
+    flex-wrap: wrap;
+  }
+
+  .time-unit {
+    flex: 1 1 33%;
+    margin: 10px 0;
+  }
+
+  .feature-text {
+    font-size: 20px;
+  }
+
+  .university-text {
+    font-size: 0.8em;
+  }
+
+  .speak-1 {
+    font-size: 1.5rem;
+  }
+
+  .date {
+    font-size: 3em;
+  }
+
+  .month-year {
+    font-size: 1.5em;
+  }
+}
+/* Laptop responsiveness */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .container-p {
+    max-width: 90%;
+    padding: 30px;
+  }
+
+  .top-head {
+    margin-top: -2%;
+  }
+
+  .logo-image img {
+    width: 180px;
+  }
+
+  .top-layer a {
+    font-size: 16px;
+    margin-left: 30px;
+  }
+
+  .main-p {
+    margin-top: 60px;
+  }
+
+  .left-column {
+    flex: 0 0 50%;
+    margin-left: -2%;
+  }
+
+  .right-column {
+    flex: 0 0 45%;
+    margin-right: 5%;
+    margin-left: -10%;
+  }
+
+  .inno-head {
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .speakers-section {
+    margin-top: 5%;
+  }
+
+  .feature-text {
+    font-size: 22px;
+  }
+
+  .line {
+    margin-left: 5rem;
+  }
+
+  .speaker {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .speak-1 {
+    font-size: 1.8rem;
+  }
+
+  .countdown-section {
+    margin-left: -20%;
+  }
+
+  .countdown {
+    font-size: 40px;
+  }
+
+  .date {
+    font-size: 2.5em;
+  }
+
+  .month-year {
+    font-size: 0.9em;
+  }
+
+  .frans-logo img {
+    width: 130px;
+  }
+
+  .ai-logo img,
+  .signal-logo img {
+    width: 90px;
+  }
+}
+/* first page end */
